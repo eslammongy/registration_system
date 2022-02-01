@@ -1,0 +1,16 @@
+{
+    "name": "registration/php-mvc",
+    "autoload": {
+        "App\\": "App",
+        "proSrc\\": "src"
+    },
+    "authors": [{
+        "name": "Eslam Mongy",
+        "email": "eslammongy995@gmail.com"
+    }],
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "symfony/var-dumper": "^5.4"
+    }
+
+}

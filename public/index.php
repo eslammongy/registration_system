@@ -10,4 +10,4 @@ require_once __DIR__ . '/../routes/web.php';
 
 
 $route = new Route(new Request(), new Response());
-dump($route->request->getMethod());
+$route->resolve();

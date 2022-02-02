@@ -1,8 +1,9 @@
 <?php
 
 
+use App\controllers\HomeController;
 use proSrc\http\Route;
 
-Route::get('/', function (){
-    return "Hello World";
-});
+Route::get('/', [HomeController::class, 'index']);
+
+/**/

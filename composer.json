@@ -1,8 +1,10 @@
 {
     "name": "registration/php-mvc",
     "autoload": {
-        "App\\": "App",
-        "proSrc\\": "src"
+        "psr-4": {
+            "App\\": "App",
+            "proSrc\\": "src"
+        }
     },
     "authors": [{
         "name": "Eslam Mongy",
